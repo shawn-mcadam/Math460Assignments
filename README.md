@@ -1,20 +1,17 @@
-# A glimpse of Lean
+# MATH 460/872 Assignments
+### Computer-Aided Mathematics: Category Theory in Lean 4
 
-This repository is an introduction to theorem proving in Lean for the impatient.
-The goal is to get a feel for what proving in Lean looks like in 2 or 3 hours.
-After reading the `Introduction.lean` file, you should read explanations and do exercises in the
-`Basics` folder, and then choose to work on one file from the `Topics` folder.
-Of course you can play with all files from that folder if you have more time.
+This repository contains the assignments and starter files for MATH 460/872. The existing MATH 460 assignments can be found in `Assignments/`. To work using Lean, you can use Codespaces (easy) or install Lean locally (hard). The benefit of using a GitHub Codespace is that your project will _just work_. The downside is that you only have 60 hours free. Before you hit that time limit, we'll figure out something for future assignments! 
 
-To work using Lean, you either have to install Lean locally, use Codespaces or use Gitpod.
+To set up a Codespace, ensure you're logged-in to Github, click the button below, select `2-core`, and then press `Create codespace`. After a few minutes, an editor with Lean working will open in your browser. Your Codespace is frequently saved to the cloud, and you can access your existing Codespaces here [https://github.com/codespaces](https://github.com/codespaces).
 
-* To use codespaces, make sure you're logged in to Github, click the button below, select `4-core`, and then press `Create codespace`. After a few minutes an editor with Lean working will open in your browser.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/shawn-mcadam/Math460Assignments)
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/PatrickMassot/GlimpseOfLean)
+This repo is also a fork of Glimpse Of Lean, an introduction to theorem proving in Lean for the impatient.
+Going through the files in `GlimpseOfLean/` should give you a feel for what proving in Lean looks like in 2 or 3 hours.
+When going through `GlimpseOfLean/` start with `Introduction.lean`, then read the explanations and exercises in
+`GlimpseOfLean/Basics/` folder, and then you can work on a file from the `Topics` folder. You can read more about GlimpseOfLean here: [https://github.com/PatrickMassot/GlimpseOfLean](https://github.com/PatrickMassot/GlimpseOfLean)
 
-* Gitpod is very similar to Codespaces, click the button below, press `Continue` and wait a few minutes.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/PatrickMassot/GlimpseOfLean)
-* To install Lean locally, follow the instructions [here](https://leanprover-community.github.io/get_started.html).
-
-If you have a lot more time, you should read the book [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/)
+Useful links:
+- [Github Codespaces](https://github.com/codespaces)
+- [Mathematics in Lean](https://leanprover-community.github.io/mathematics_in_lean/)
