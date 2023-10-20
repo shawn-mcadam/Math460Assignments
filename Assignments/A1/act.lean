@@ -17,7 +17,7 @@ example {x y : ℤ} (h1 : x - 3 * y = 5) (h2 : y = 3) :
 }
 
 
-/- 1.4.11 question 6. Make liberal use of apply? for this question.
+/- 1.4.11 question 6. Make liberal use of `apply?` for this question.
 You will also need the fact that (a-b)^2 ≥ 0 -/
 example (a b : ℝ)
     : a ^ 2 + b ^ 2 ≥ 2 * a * b := by {
