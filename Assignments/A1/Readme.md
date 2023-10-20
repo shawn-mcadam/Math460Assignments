@@ -4,14 +4,14 @@ This entire assignment is contained within `act.lean`.
 ### Purpose
 The purpose of this assignment is to
 - Set up a Codespace
-- Get some experience with Lean 4
-- Define some structures
+- Start Leanifying Seven Sketches in Compositionality: An Invitation to Applied Category Theory (ACT) 
+- Get experience with structures
 
 ### Part 1
 The first three questions in this assignment are exercises from _Mechanics of Proof_, an online book by H.R. MacBeth which you can access here: [Mechanics of Proof](https://hrmacbeth.github.io/math2001/index.html). Supply the proofs of the three examples at the beginning of `act.lean`.
 
 ### Part 2
-To start leanifying Seven Sketches in Compositionality: An Invitation to Applied Category Theory (ACT), you will filling in the blanks left in `act.lean`. Currently, this file is a skeleton of ACT chapter 1. Find any place with a `TODO` or `sorry` and fill in the details.
+The second part of `act.lean` is very incomplete. Currently, this file is a skeleton of ACT chapter 1. Find any place with a `TODO` or `sorry` and fill in the details.
 You must
 1. Set up a namespace
 2. Show the DiscretePreorder is a preorder
