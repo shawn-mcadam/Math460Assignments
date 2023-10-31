@@ -28,4 +28,7 @@ Students are allowed to solve these problems by any means; however, this is a li
 - apply?
 Make liberal use of `apply?`
 
+### Deliverables
+- Your copy of `act.lean`
+
 If you want more practice before/after tackling these problems, please look through `GlimpseOfLean/`.
