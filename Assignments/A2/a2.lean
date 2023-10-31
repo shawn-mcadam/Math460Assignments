@@ -257,9 +257,11 @@ example : s ∩ (t ∪ u) ⊆ s ∩ t ∪ s ∩ u := by
 
 /- one way to prove two sets A,B are equal is by showing A ⊆ B ∧ B ⊆ A. To do this
 in Lean we can use the theorem `Subset.antisymm := A ⊆ B ∧ B ⊆ A ↔ A = B` -/
-example : s ∩ t = t ∩ s := by
+example : s ∩ t = t ∩ s := by {
   apply Subset.antisymm
   sorry
+  sorry
+}
 
 
 /- A more direct method of showing two sets are equal is by showing that every
