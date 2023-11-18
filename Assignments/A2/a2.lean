@@ -16,12 +16,7 @@ example (f g : ℝ → ℝ) : even_fun f → even_fun g → even_fun (f + g) := 
 
 /- The composition of two even functions is even -/
 example (f g : ℝ → ℝ) : even_fun f → even_fun (g ∘ f) := by {
-  /- sorry -/
-  intro hf x
-  calc
-    (g ∘ f) (-x) = g (f (-x)) := by rfl
-               _ = g (f (x))  := by rw [hf]
-               _ = (g ∘ f) x  := by rfl
+  sorry
 }
 
 
