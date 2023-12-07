@@ -1,4 +1,4 @@
-# MATH 460/872 Assignment 2
+# MATH 460/872 Assignment 3
 
 This assignment is somewhat informal because categories are particularly difficult to formalize. You will use pen and paper to work directly with the definition of a category and you will use Lean to formalize (tractable) proofs of relevant results.
 
