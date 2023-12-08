@@ -2,9 +2,25 @@
 
 This assignment is somewhat informal because categories are particularly difficult to formalize. You will use pen and paper to work directly with the definition of a category and you will use Lean to formalize (tractable) proofs of relevant results.
 
+## Possible formal section:
+
+Do a project where you define a mathematical structure and prove some related results. This section depends on the time you have this exam season. Some examples include:
+1. Math in Lean chapter 6: Gaussian Integers.
+2. Glimpse of Lean Galois Connections: Complete Lattices, or Topology, or Subgroup, etc.
+3. Math in Lean chapter 7: Monoids
+
 $~$
 
 ## Informal section:
+For this section, you will read through chapter 3 from the textbook and provide solutions to the following questions:
+
+Section 3.2
+- Exercises 3.10, 3.15, 3.16, 3.17, 3.19, 3.21, 3.22, 3.25, 3.32
+Section 3.3
+- Exercises 3.37
+
+
+Here are some useful definitions and comments:
 
 A category $\mathcal{C}$ is a collection of objects and arrows with the following nice properties. This definition was taken from section 3.2 of ACT.
 ### Definition: category; objects; morphisms; identity; composite; $\mathcal{C}$; $\mathrm{Ob}(\mathcal{C})$; $\mathcal{C}(a,b)$
@@ -28,12 +44,12 @@ We haven't specified much in the definition of a category. The names _objects_, 
 
 $~$
 
+
 This section explores how to construct a category from a graph. Two such methods are $\mathrm{Free} : (V,E)\to\mathcal{C}$ and $\mathrm{Preorder} : (V,E)\to\mathcal{C}$.
 In both cases, the vertices $V$ become objects and the edges $E$ become morphisms. The two categories have a different number of morphisms. 
 
 Key takeaways from this section are that:
 - Any preorder can be regarded as a category and every category can be "crushed down" into a preorder.
-- Both preorder and 
 
 
 $~$
